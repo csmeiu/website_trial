@@ -1,0 +1,90 @@
+
+* {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(89, 94, 120);
+}
+
+
+p {
+    color:rgb(19, 3, 31);
+    font-size:15px;
+    font-style: oblique;
+}
+
+h1, h2, h3, h7 {
+    color:rgb(36, 3, 63);
+}
+
+h1 {
+    border-style:dotted;
+    border-color:rgb(57, 8, 100);
+    border-radius:50px;
+    border-width: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+}
+
+h2 {
+    border-style:double;
+    border-color:rgb(57, 8, 100);
+    border-radius:20px;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+}
+
+h7 {
+    font-style: italic;
+}
+#hw {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    color:rgb(36, 3, 63);
+    list-style-type: none;
+}
+
+nav {
+    color:rgb(36, 3, 63);
+    font-size:20px;
+    border-style:dotted;
+    border-color:rgb(57, 8, 100);
+    border-radius:20px;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+img, video {
+    border: 5px solid #555;
+    border-radius:10px;
+    border-width: 5px;
+}
+
+video.geo {
+    border-style: dotted;
+}
+
+/* The animation code */
+@keyframes example {
+    from {background-color: rgb(89, 94, 120);}
+    to {background-color: rgb(45, 128, 161);}
+  }
+  
+  /* The element to apply the animation to */
+  * {
+    background-color: rgb(89, 94, 120);
+    animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+  }
+
+a:link {color:rgb(7, 7, 73)}
+a:visited {color:rgb(54, 9, 108)}
+a:hover {color:rgb(233, 233, 241)}
+a:active {color:blueviolet}
+
